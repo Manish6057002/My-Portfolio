@@ -1,0 +1,153 @@
+[
+  {
+    "id": "skyhightrip",
+    "title": "SkyHighTrip",
+    "category": "Travel Website",
+    "date": "January 2024",
+    "client": "SkyHighTrip Travel Agency",
+    "website": "https://skyhightrip.com",
+    "description": "A comprehensive travel booking platform built with PHP that integrates with the Amadeus API to provide real-time flight and hotel booking services. The platform offers seamless search, comparison, and booking capabilities for flights and accommodations with live pricing and availability data.",
+    "features": [
+      "Real-time flight search using Amadeus API",
+      "Hotel booking and reservation system",
+      "Live pricing and availability updates",
+      "Multi-city flight options",
+      "Hotel filtering and comparison",
+      "User account and booking management",
+      "Payment gateway integration",
+      "Email confirmations and notifications",
+      "Mobile responsive design",
+      "Admin dashboard for bookings management"
+    ],
+    "technologies": ["PHP", "MySQL", "Amadeus API", "JavaScript", "Bootstrap", "jQuery", "REST API"],
+    "mainImage": "/assets/imgs/works/skyhightrip.png",
+    "galleryImages": [
+      "/assets/imgs/works/project/1.png",
+      "/assets/imgs/works/project/2.png"
+    ]
+  },
+  {
+    "id": "youngsietar",
+    "title": "YoungSietar",
+    "category": "Business Website",
+    "date": "December 2023",
+    "client": "YoungSietar Corporation",
+    "website": "https://youngsietar.com",
+    "description": "A professional business website showcasing corporate services, team information, and client portfolio. Designed with clean, modern aesthetics to establish strong brand presence.",
+    "features": [
+      "Corporate homepage design",
+      "Service showcase pages",
+      "Team member profiles",
+      "Client testimonials",
+      "Contact forms",
+      "SEO optimization"
+    ],
+    "technologies": ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+    "mainImage": "/assets/imgs/works/youngsietar.png",
+    "galleryImages": [
+      "/assets/imgs/works/project/1.png",
+      "/assets/imgs/works/project/2.png"
+    ]
+  },
+  {
+    "id": "progressive-graphics",
+    "title": "Progressive Graphics",
+    "category": "Design Agency",
+    "date": "November 2023",
+    "client": "Progressive Graphics Studio",
+    "website": "https://progressivegraphics.com",
+    "description": "A creative design agency website featuring portfolio galleries, client work showcases, and service offerings. Built to highlight creative capabilities and attract potential clients.",
+    "features": [
+      "Portfolio gallery with filtering",
+      "Interactive design showcases",
+      "Client case studies",
+      "Service pricing pages",
+      "Blog integration",
+      "Contact and inquiry forms"
+    ],
+    "technologies": ["React", "Laravel", "MySQL", "Cloudinary", "Bootstrap"],
+    "mainImage": "/assets/imgs/works/performancemarketingcompany.png",
+    "galleryImages": [
+      "/assets/imgs/works/project/1.png",
+      "/assets/imgs/works/project/2.png"
+    ]
+  },
+  {
+    "id": "xrdigitech",
+    "title": "XRDigitech",
+    "category": "AR/VR & Software Company",
+    "date": "October 2023",
+    "client": "XRDigitech Pvt Ltd",
+    "website": "https://xrdigitech.com",
+    "description": "A WordPress-powered website for an AR/VR and software solutions company showcasing immersive projects, 3D/interactive demos, enterprise software services, and industry use cases. Built to highlight spatial computing capabilities, custom software development, case studies, and lead capture with performant media handling.",
+    "features": [
+      "Portfolio of AR/VR projects with rich media",
+      "Interactive demo/video galleries",
+      "Service pages and industry use cases",
+      "Case studies and client testimonials",
+      "Contact and lead capture forms",
+      "Blog/updates for product news",
+      "SEO and performance optimizations"
+    ],
+    "technologies": ["WordPress", "PHP", "MySQL", "Gutenberg/Elementor", "Advanced Custom Fields", "Yoast SEO", "Caching/CDN"],
+    "mainImage": "/assets/imgs/works/xrdigitech.png",
+    "galleryImages": [
+      "/assets/imgs/works/project/1.png",
+      "/assets/imgs/works/project/2.png"
+    ]
+  },
+  {
+    "id": "freshearth",
+    "title": "FreshEarth",
+    "category": "E-commerce",
+    "date": "September 2023",
+    "client": "FreshEarth Initiative",
+    "website": "https://freshearth.com",
+    "description": "A comprehensive e-commerce platform built on Shopify specializing in premium organic fruits, nuts, and seeds. The website features an intuitive shopping experience with detailed product catalogs, nutritional information, and sustainable packaging options. Designed to promote healthy living through natural, organic products sourced from trusted suppliers.",
+    "features": [
+      "Product catalog with detailed descriptions",
+      "Shopping cart and checkout system",
+      "Customer account management",
+      "Order tracking and history",
+      "Nutritional information display",
+      "Sustainable packaging options",
+      "Subscription service for regular orders",
+      "Customer reviews and ratings",
+      "Mobile-responsive design",
+      "SEO optimization for organic search"
+    ],
+    "technologies": ["Shopify", "Liquid", "JavaScript", "CSS3", "Shopify Apps", "Payment Gateway Integration"],
+    "mainImage": "/assets/imgs/works/freshearth.png",
+    "galleryImages": [
+      "/assets/imgs/works/project/1.png",
+      "/assets/imgs/works/project/2.png"
+    ]
+  },
+  {
+    "id": "icontravels",
+    "title": "IconTravels",
+    "category": "Travel Website",
+    "date": "August 2023",
+    "client": "IconTravels Ltd",
+    "website": "https://icontravels.com",
+    "description": "A WordPress-based travel agency website showcasing luxury travel experiences, destinations, and services. Built as a contact-focused platform where customers can browse travel packages and contact the agency directly for bookings and personalized vacation planning.",
+    "features": [
+      "Travel destination showcases",
+      "Luxury travel packages display",
+      "Contact forms and inquiry system",
+      "Travel blog and updates",
+      "Customer testimonials",
+      "Service pages and pricing",
+      "Photo galleries and virtual tours",
+      "Mobile responsive design",
+      "SEO optimization for travel keywords",
+      "Email marketing integration"
+    ],
+    "technologies": ["WordPress", "PHP", "MySQL", "Contact Form 7", "Elementor", "Yoast SEO", "Email Marketing"],
+    "mainImage": "/assets/imgs/works/icontravels.png",
+    "galleryImages": [
+      "/assets/imgs/works/project/1.png",
+      "/assets/imgs/works/project/2.png"
+    ]
+  }
+]

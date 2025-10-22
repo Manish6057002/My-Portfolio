@@ -1,0 +1,38 @@
+[
+  {
+    "photo": "/assets/imgs/works/skyhightrip.png",
+    "title": "SkyHighTrip",
+    "link": "/dark/works/single-project?id=skyhightrip",
+    "category": "Travel Website"
+  },
+  {
+    "photo": "/assets/imgs/works/youngsietar.png",
+    "title": "YoungSietar",
+    "link": "/dark/works/single-project?id=youngsietar",
+    "category": "Business Website"
+  },
+  {
+    "photo": "/assets/imgs/works/performancemarketingcompany.png",
+    "title": "Performance Marketing Company",
+    "link": "/dark/works/single-project?id=performancemarketingcompany",
+    "category": "Performance Marketing Company"
+  },
+  {
+    "photo": "/assets/imgs/works/xrdigitech.png",
+    "title": "XRDigitech",
+    "link": "/dark/works/single-project?id=xrdigitech",
+    "category": "Tech Company"
+  },
+  {
+    "photo": "/assets/imgs/works/freshearth.png",
+    "title": "FreshEarth",
+    "link": "/dark/works/single-project?id=freshearth",
+    "category": "Eco-Friendly"
+  },
+  {
+    "photo": "/assets/imgs/works/icontravels.png",
+    "title": "IconTravels",
+    "link": "/dark/works/single-project?id=icontravels",
+    "category": "Travel Agency"
+  }
+]

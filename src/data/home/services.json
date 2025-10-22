@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "/assets/imgs/serv-img/1.png",
+    "title": "WEB DEVELOPMENT",
+    "description": "Custom web applications built with modern technologies like React, Next.js, Node.js, and PHP. Responsive, fast, and SEO-optimized websites that deliver exceptional user experiences across all devices."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/2.png",
+    "title": "SOFTWARE DEVELOPMENT",
+    "description": "Full-stack software solutions including desktop applications, mobile apps, and enterprise software. Custom development using Python, Java, C#, and modern frameworks to meet your specific business requirements."
+  },
+  {  
+    "icon": "/assets/imgs/serv-img/3.png",
+    "title": "CRM/CMS DEVELOPMENT",
+    "description": "Custom Customer Relationship Management and Content Management Systems. Tailored solutions using WordPress, Laravel, and custom frameworks to streamline your business operations and improve customer engagement."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/4.png",
+    "title": "TECHNOLOGY CONSULTING",
+    "description": "Strategic technology consulting to help you choose the right tech stack, optimize existing systems, and plan digital transformation initiatives that drive business growth and efficiency."
+  }
+]
