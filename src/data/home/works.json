@@ -34,5 +34,24 @@
     "title": "IconTravels",
     "link": "/dark/works/single-project?id=icontravels",
     "category": "Travel Agency"
+  },
+  {
+    "photo": "/assets/imgs/works/progressive-graphics.png",
+    "title": "Progressive Graphics Employee Attendance Management System",
+    "link": "/dark/works/single-project?id=progressive-graphics",
+    "category": "Laravel Application",
+    "description": "Employee Attendance Management System with admin clock in/out features, employee chat using Chatify, event calendar, task assignment functionality, and export capabilities"
+  },
+  {
+    "photo": "/assets/imgs/works/gurudwarasadhsangat.png",
+    "title": "Gurudwara Sadh Sangat",
+    "link": "/dark/works/single-project?id=gurudwarasadhsangat",
+    "category": "WordPress Website"
+  },
+  {
+    "photo": "/assets/imgs/works/abacus.png",
+    "title": "Abacus Mental Mathematics Academy",
+    "link": "/dark/works/single-project?id=abacus-mental-mathematics",
+    "category": "WordPress Website"
   }
 ]

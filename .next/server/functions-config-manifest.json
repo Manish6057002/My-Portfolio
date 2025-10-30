@@ -1,1 +1,4 @@
-{"version":1,"functions":{"/dark/blogs":{},"/dark/works":{},"/dark/works/single-project":{},"/":{},"/dark/blogs/single-blog":{}}}
+{
+  "version": 1,
+  "functions": {}
+}

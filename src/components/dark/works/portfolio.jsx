@@ -21,7 +21,7 @@ function Portfolio() {
                 </div>
                 <div className="cont mt-30 d-flex align-items-center">
                   <div>
-                    <span className="tag">Branding</span>
+                    <span className="tag">{item.category || "Web Development"}</span>
                     <h6 className="line-height-1">
                       <a href={item.link}>{item.title}</a>
                     </h6>

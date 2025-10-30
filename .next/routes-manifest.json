@@ -1,1 +1,104 @@
-{"version":3,"pages404":true,"caseSensitive":false,"basePath":"","redirects":[{"source":"/:path+/","destination":"/:path+","internal":true,"statusCode":308,"regex":"^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"}],"headers":[],"dynamicRoutes":[],"staticRoutes":[{"page":"/","regex":"^/(?:/)?$","routeKeys":{},"namedRegex":"^/(?:/)?$"},{"page":"/_not-found","regex":"^/_not\\-found(?:/)?$","routeKeys":{},"namedRegex":"^/_not\\-found(?:/)?$"},{"page":"/dark","regex":"^/dark(?:/)?$","routeKeys":{},"namedRegex":"^/dark(?:/)?$"},{"page":"/dark/blogs","regex":"^/dark/blogs(?:/)?$","routeKeys":{},"namedRegex":"^/dark/blogs(?:/)?$"},{"page":"/dark/blogs/single-blog","regex":"^/dark/blogs/single\\-blog(?:/)?$","routeKeys":{},"namedRegex":"^/dark/blogs/single\\-blog(?:/)?$"},{"page":"/dark/works","regex":"^/dark/works(?:/)?$","routeKeys":{},"namedRegex":"^/dark/works(?:/)?$"},{"page":"/dark/works/single-project","regex":"^/dark/works/single\\-project(?:/)?$","routeKeys":{},"namedRegex":"^/dark/works/single\\-project(?:/)?$"},{"page":"/favicon.ico","regex":"^/favicon\\.ico(?:/)?$","routeKeys":{},"namedRegex":"^/favicon\\.ico(?:/)?$"}],"dataRoutes":[],"rsc":{"header":"RSC","varyHeader":"RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url","prefetchHeader":"Next-Router-Prefetch","contentTypeHeader":"text/x-component"},"rewrites":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/contact",
+      "regex": "^/api/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/contact(?:/)?$"
+    },
+    {
+      "page": "/dark",
+      "regex": "^/dark(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dark(?:/)?$"
+    },
+    {
+      "page": "/dark/blogs",
+      "regex": "^/dark/blogs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dark/blogs(?:/)?$"
+    },
+    {
+      "page": "/dark/blogs/single-blog",
+      "regex": "^/dark/blogs/single\\-blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dark/blogs/single\\-blog(?:/)?$"
+    },
+    {
+      "page": "/dark/works",
+      "regex": "^/dark/works(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dark/works(?:/)?$"
+    },
+    {
+      "page": "/dark/works/single-project",
+      "regex": "^/dark/works/single\\-project(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dark/works/single\\-project(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

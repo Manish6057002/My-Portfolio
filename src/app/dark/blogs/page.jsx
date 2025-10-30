@@ -23,7 +23,7 @@ function Blogs() {
       <ProgressScroll />
       <Nav />
 
-      <main class="container">
+      <main className="container">
         <Blog />
         <Posts />
       </main>

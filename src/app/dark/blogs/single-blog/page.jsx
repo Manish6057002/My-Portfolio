@@ -21,7 +21,7 @@ function BlogDetails() {
       <LoadingScreen />
       <ProgressScroll />
       <Nav />
-      <main class="container">
+      <main className="container">
         <Project />
         <Blogs />
       </main>

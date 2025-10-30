@@ -21,7 +21,7 @@ function Works() {
       <ProgressScroll />
       <Nav />
 
-      <main class="container">
+      <main className="container">
         <Portfolio />
       </main>
       <Footer />
