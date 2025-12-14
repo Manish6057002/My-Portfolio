@@ -12,6 +12,8 @@ export const metadata = {
   title: 'Manish Kashyap | Full Stack Developer - Project Details',
 };
 
+export const dynamic = 'force-dynamic';
+
 function SingleProject() {
   return (
     <div>
