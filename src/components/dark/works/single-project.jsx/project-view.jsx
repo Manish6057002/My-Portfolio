@@ -1,12 +1,22 @@
 'use client';
-import React from 'react';
-import { useSearchParams } from 'next/navigation';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import projectsData from '@/data/home/projects.json';
 
 function ProjectView() {
-  const searchParams = useSearchParams();
-  const projectId = searchParams.get('id') || 'skyhightrip';
+  const [projectId, setProjectId] = useState('skyhightrip');
+  
+  useEffect(() => {
+    // Read search params from URL on client side only
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+      if (id) {
+        setProjectId(id);
+      }
+    }
+  }, []);
+  
   const project = projectsData.find(p => p.id === projectId) || projectsData[0];
   
   // Find current project index
