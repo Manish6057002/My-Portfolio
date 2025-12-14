@@ -6,7 +6,7 @@ import Nav from '@/components/dark/blogs/nav';
 import ContactUs from '@/components/dark/contact/ContactUs';
 import ProjectView from '@/components/dark/works/single-project.jsx/project-view';
 import Script from 'next/script';
-import React from 'react';
+import React, { Suspense } from 'react';
 
 export const metadata = {
   title: 'Manish Kashyap | Full Stack Developer - Project Details',
@@ -22,7 +22,9 @@ function SingleProject() {
       <Nav />
 
       <main className="container">
-        <ProjectView />
+        <Suspense fallback={<div>Loading project...</div>}>
+          <ProjectView />
+        </Suspense>
       </main>
       <Footer />
       <Script
