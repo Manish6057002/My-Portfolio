@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^16.0.10",
     "nodemailer": "^7.0.9",
-    "react": "latest",
-    "react-dom": "latest",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "swiper": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^9.38.0",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "^16.0.10"
   }
 }
